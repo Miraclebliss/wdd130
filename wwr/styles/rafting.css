@@ -38,7 +38,30 @@ header img {
     height: auto;
 }
 
+.hero {
+    position: relative;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 16px;
+}
 
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent-1);
+    padding: 16px;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
 article img {
     max-width: 200px;
     height: auto;
