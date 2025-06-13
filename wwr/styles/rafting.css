@@ -21,8 +21,8 @@ body {
 header {
   background-color: var(--primary-color);
   grid-template-columns: auto 1fr auto;
-  padding: 2rem 2rem 1.5 rem 2 rem;
-  gap:2 rem;
+  padding: 2rem 2rem 1.5rem 2rem;
+  gap:2rem;
   display: grid;
   align-items: center;
   justify-content: space-between;
@@ -31,7 +31,6 @@ header {
 .logo {
   width: 100px;
   height: auto;
-  margin-left: 0;
 }
 
 .site-title {
@@ -63,7 +62,6 @@ header {
   text-decoration: none;
   font-weight: bold;
   color: var(--primary-color);
-  transition: background 0.2s;
 }
 
 .navbar a:hover {
@@ -322,7 +320,7 @@ button {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  /* transition: background 0.3s ease; */
   margin-top: 1rem;
 }
 
