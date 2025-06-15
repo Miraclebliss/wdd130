@@ -297,7 +297,6 @@ header {
   color: var(--primary-color);
 }
 
-/* Company Info Section */
 .contact-info {
   background: var(--secondary-color);
   border-radius: 10px;
@@ -325,7 +324,6 @@ live-chat {
   margin: 2rem 0;
 }
 
-/* Google Map */
 .map-container {
   margin: 1.5rem 0;
   display: flex;
@@ -339,7 +337,6 @@ live-chat {
   height: 200px;
 }
 
-/* Contact Form */
 .contact-section {
   background: var(--secondary-color);
   border: 1.5px solid var(--primary-color);
@@ -513,7 +510,6 @@ blockquote span {
   border-radius: 6px;
   padding: 0.7rem 1.5rem;
   cursor: pointer;
-  transition: background 0.2s;
 }
 
 .trips-cta {
@@ -538,7 +534,6 @@ blockquote span {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
-  transition: background 0.2s;
 }
 .trips-cta .cta-btn:hover {
   background: var(--primary-color, #005a8c);
