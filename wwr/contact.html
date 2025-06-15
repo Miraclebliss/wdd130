@@ -3,13 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"content="Get in touch with Milagro your launchpad for epic whitewater adventures. Whether you're new or a pro paddler, we're here to help you make a splash.">
-  <title>Iruka Nkechi Miracle, WDD 130, Contact Milagro Whitewater Adventures</title>
-  <link rel="stylesheet" href="styles/rafting.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Milagro White Water Rafting for questions, bookings, or feedback. We're here to help you plan your next adventure!">
+  <title>Milagro White Water Rafting | Contact Us</title>
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -17,10 +14,12 @@
     <img src="images/Milagrologo.webp" alt="Milagro Logo" class="logo" />
     <h1 class="site-title">Milagro White Water Rafting</h1>
     <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact Us</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -48,34 +47,43 @@
         <p class="intro">Have questions? Want to book a trip? or just stoked to talk rapids? We'd love to hear from you.
         </p>
 
-        <form action="/submit-contact" method="Post">
-          <fieldset>
-            <legend>Contact Information</legend>
-            <div class="form-item column2">
-              <label for="fullname">Full Name:</label>
-              <input type="text" id="fullname" name="fullname" required>
-            </div>
-            <div class="form-item column2">
-              <label for="useremail">Email:</label>
-              <input type="email" id="useremail" name="email" required>
-            </div>
-            <div class="form-item column2">
-              <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div class="form-item column2">
-            </div>
-            <div class="form-item column1">
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" rows="6"
-                placeholder="Tell us about your adventure plans or questions"></textarea>
-            </div>
-            <div class="form-item newsletter-row">
-              <input type="checkbox" id="newsletter" name="newsletter" value="yes">
-              <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-            </div>
-            <button type="submit">Send Message</button>
-          </fieldset>
+        <form class="contact-form" action="#" method="post">
+          <div>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+          <div>
+          <div>
+            <fieldset>
+              <legend>Purpose of Message</legend>
+              <label>
+                <input type="radio" name="purpose" value="question" required>
+                Question
+              </label>
+              <label>
+                <input type="radio" name="purpose" value="feedback">
+                Feedback
+              </label>
+              <label>
+                <input type="radio" name="purpose" value="booking">
+                Booking
+              </label>
+            </fieldset>
+          </div>
+          <div>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div>
+            <label>
+              <input type="checkbox" name="newsletter">
+              Sign me up for the newsletter!
+            </label>
+          </div>
+          <div>
+          <button type="submit">Send Message</button>
         </form>
         <div class="contact-info">
           <h2>Prefer to talk directly?</h2>
@@ -94,16 +102,20 @@
             </div>
           </div>
     </section>
+    <section class="live-chat">
+      <h2>Need Help Fast?</h2>
+      <p>Chat with us live! (Feature coming soon)</p>
+    </section>
   </main>
   
-  <footer>
-    <p>©2025 Milagro Rafting Company, Iruka Nkechi Miracle</p>
-    <div class="socialmedia">
+ <footer>
+    <p>©2025 Milagro White Water Rafting | Iruka Nkechi Miracle</p>
+    <nav class="socialmedia">
       <a href="https://www.facebook.com"><img src="images/facebookicon.webp" alt="Facebook" /></a>
       <a href="https://www.instagram.com"><img src="images/instagramicon.webp" alt="Instagram" /></a>
       <a href="https://www.x.com"><img src="images/twittericon.webp" alt="Twitter" /></a>
-    </div>
-    https://app.moqups.com/UUoq1uT07Ays2tbvvpaOXNqhf3soDgvG/view/page/ad64222d5
+    </nav>
+    <a href="https://app.moqups.com/your-wireframe-link" target="_blank">View Wireframe</a>
   </footer>
 </body>
 

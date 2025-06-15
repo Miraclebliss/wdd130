@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Milagro White Water Rafting trips. Find the perfect adventure, view trip details, and book your next rafting experience.">
+  <title>Milagro White Water Rafting, Trips & Adventures</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/Milagrologo.webp" alt="Milagro Logo" class="logo" />
+    <h1 class="site-title">Milagro White Water Rafting</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="trips-cta">
+      <h2>Ready for Adventure?</h2>
+      <p>Contact us to book your unforgettable rafting experience!</p>
+      <a href="contact.html" class="cta-btn">Book Now</a>
+    </section>
+
+    <!-- Top Rafting Trips by Milagro -->
+    <section class="trip-catalog">
+        <h2>Our Top Rafting Trips</h2>
+        <div class="trip-grid">
+            <div class="trip-card">
+            <h3>The Thunder Gorge Challenge <span class="trip-class">(Class IV–V)</span></h3>
+            <ul>
+                <li>For adrenaline junkies</li>
+                <li>Heart-pounding rapids</li>
+                <li>Steep drops and narrow canyons</li>
+                <li>Not for the faint-hearted (or dry-hearted)</li>
+            </ul>
+            </div>
+            <div class="trip-card">
+            <h3>Lazy River Vibes <span class="trip-class">(Class I–II)</span></h3>
+            <ul>
+                <li>Family-friendly float trip</li>
+                <li>Chill currents, lush scenery</li>
+                <li>Great for beginners, kids, and zen seekers</li>
+                <li>Ideal for bonding or sneaky selfies</li>
+            </ul>
+            </div>
+            <div class="trip-card">
+            <h3>Sunset Rapids Experience</h3>
+            <ul>
+                <li>Twilight magic on water</li>
+                <li>Golden hour ride with mild rapids</li>
+                <li>Ends with riverside dinner and bonfire</li>
+                <li>Romantic, relaxed, and ridiculously photogenic</li>
+            </ul>
+            </div>
+            <div class="trip-card">
+            <h3>Jungle Explorer Run <span class="trip-class">(Class II–III)</span></h3>
+            <ul>
+                <li>Nature meets adventure</li>
+                <li>Winding rivers through dense green canopies</li>
+                <li>Wildlife sightings and hidden waterfall stops</li>
+                <li>Medium-level excitement with max-level beauty</li>
+            </ul>
+            </div>
+            <div class="trip-card">
+            <h3>Extreme Expedition – 2-Day Overnight <span class="trip-class">(Class III–V)</span></h3>
+            <ul>
+                <li>The full send package</li>
+                <li>Multi-day trip with camping</li>
+                <li>Includes meals, night hikes, and stargazing</li>
+                <li>For those who want to escape civilization (and maybe Wi-Fi)</li>
+            </ul>
+            </div>
+            <div class="trip-card">
+            <h3>Rapid Rookies Bootcamp</h3>
+            <ul>
+                <li>Learn-to-raft program for first-timers</li>
+                <li>Safety drills, basic paddling, mock rescue scenarios</li>
+                <li>Ends with a full river run to flex your new skills</li>
+                <li>Great for team-building and youth groups</li>
+            </ul>
+            </div>
+            <div class="trip-card">
+            <h3>Girls Go Wild (All-Female Adventure Trip)</h3>
+            <ul>
+                <li>Empowering, splashy, and sass-loaded</li>
+                <li>Led by expert female guides</li>
+                <li>A mix of thrill, wellness, and sisterhood</li>
+                <li>Includes riverside yoga and wine night</li>
+            </ul>
+            </div>
+            <div class="trip-card">
+            <h3>Corporate Flow – Team Rafting Retreat</h3>
+            <ul>
+                <li>Where team-building gets wet</li>
+                <li>Custom itineraries for companies</li>
+                <li>On-river leadership exercises + off-river workshops</li>
+                <li>“Trust falls” but make it Class III</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <form class="trip-filters" method="get">
+        <select name="difficulty">
+            <option value="">All Difficulties</option>
+            <option value="I-II">Class I–II</option>
+            <option value="III">Class III</option>
+            <option value="IV-V">Class IV–V</option>
+        </select>
+        <select name="group">
+            <option value="">All Groups</option>
+            <option value="family">Family</option>
+            <option value="adults">Adults</option>
+            <option value="corporate">Corporate</option>
+        </select>
+        <select name="region">
+            <option value="">All Regions</option>
+            <option value="upper">Upper Rapids</option>
+            <option value="middle">Middle Fork</option>
+            <option value="lower">Lower River</option>
+        </select>
+        <button type="submit">Filter</button>
+    </form>
+    <!-- Trip Summary Table -->
+    <section class="trip-summary">
+      <h2>Trip Summary</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Trip Name</th>
+            <th>Difficulty</th>
+            <th>Region</th>
+            <th>Group Type</th>
+            <th>Duration</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The Thunder Gorge Challenge</td>
+            <td>Advanced</td>
+            <td>Upper Rapids</td>
+            <td>Adults & Experienced</td>
+            <td>Full Day</td>
+            <td>$120</td>
+          </tr>
+          <tr>
+            <td>Jungle Explorer Run</td>
+            <td>Intermediate</td>
+            <td>Middle Fork</td>
+            <td>Families & Groups</td>
+            <td>Full Day</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>Lazy River Vibes</td>
+            <td>Beginner</td>
+            <td>Lower River</td>
+            <td>Everyone</td>
+            <td>Half Day</td>
+            <td>$60</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Planning Tools & Gallery -->
+    <section class="planning-tools">
+      <h2>Plan Your Trip</h2>
+      <div class="planning-grid">
+        <div>
+          <h3>Choosing the Right Trip</h3>
+          <ul>
+            <li>Consider your experience level</li>
+            <li>Check group requirements</li>
+            <li>Review trip durations</li>
+          </ul>
+        </div>
+        <div>
+          <h3>What to Pack</h3>
+          <ul>
+            <li>Quick-dry clothing</li>
+            <li>Water shoes</li>
+            <li>Sunscreen & hat</li>
+            <li>Personal ID</li>
+          </ul>
+        </div>
+        <div>
+          <h3>FAQs</h3>
+          <ul>
+            <li>Is rafting safe for kids?</li>
+            <li>What if I can't swim?</li>
+            <li>How do I book?</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Trip Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/raftingreaction.webp" alt="Rafting action">
+        <img src="images/group_photo.webp" alt="Group photo">
+        <img src="images/river_scenery.webp" alt="River scenery">
+      </div>
+    </section>
+  </main>
+
+    <footer>
+        <p>©2025 Milagro White Water Rafting | Iruka Nkechi Miracle</p>
+        <nav class="socialmedia">
+        <a href="https://www.facebook.com"><img src="images/facebookicon.webp" alt="Facebook" /></a>
+        <a href="https://www.instagram.com"><img src="images/instagramicon.webp" alt="Instagram" /></a>
+        <a href="https://www.x.com"><img src="images/twittericon.webp" alt="Twitter" /></a>
+        </nav>
+     </footer>
+</body>
+</html>
